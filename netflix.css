@@ -1,0 +1,286 @@
+.secone{
+    height: 75vh;
+    border: 1px solid black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background:linear-gradient( rgba(0, 0, 0, 0.6) 100%, rgba(0, 0, 0, 0.6) 100%) , url("bg.jpg");
+}
+
+#firstrowfirstcol{
+    background-image: url("Netflix.png");
+    background-size: cover;
+    width: 200px;
+    height: 100px;
+    background-position: center;
+    margin-left: 30px;
+}
+
+#select{
+    background-color: transparent;
+    color: white;
+    line-height: 1.3em;
+    padding:0.35rem 0.4rem ;
+    border-radius: 5px;
+    border-color: white;
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    text-shadow: none;
+    text-align: start;
+}
+
+.secone option{
+    font-weight: normal;
+    display: block;
+    white-space: nowrap;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+    background-color: #757575;
+}
+
+
+
+#sectbtn{
+    background-color: red;
+    color: white;
+    line-height: 1.3em;
+    padding:0.4rem 1.175rem;
+    border-radius: 5px;
+    border-color: transparent;
+    margin-left: 30px;
+}
+
+.firstcont{
+    height: 40vh;
+    margin-top: 100px;
+}
+
+.firstcont h2{
+    color: white;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.firstcont h5{
+    color: white;
+    font-size: 1.625rem;
+    margin-top: 20px;
+}
+
+.firstcont p{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.firstcont input{
+    width: 450px;
+    height: 70px;
+}
+
+.firstcont button{
+    width: 242px;
+    height: 70px;
+    background-color: red;
+    border-color: transparent;
+}
+
+.firstcont button span{
+    color: white;
+    font-size: 30px;
+}
+
+.sectwo{
+    height: 50vh;
+    background-color: black;
+    border-top:8px solid rgb(48, 48, 48) ;
+    border-bottom:8px solid rgb(48, 48, 48) ;
+}
+
+#sectwoseccol{
+    background-image: url("tv.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 780px;
+}
+#sectwoseccol video{
+   position: relative;
+    width: 550px;
+    top: 206px;
+    right: 12px;
+    
+}
+
+.sectwo h1, h4{
+    color: white;
+}
+
+#secthreeseccol{
+    background-image: url("iphpro.png");
+    background-position: center;
+    background-size: 280px;
+    background-repeat: no-repeat;
+    height: 280px;
+}
+
+.secthree{
+    height: 50vh;
+    background-color: black;
+    border-top:8px solid rgb(48, 48, 48) ;
+    border-bottom:8px solid rgb(48, 48, 48) ;
+}
+
+.secthree h1, h4, h5, span{
+    color: white;
+    display: inline;
+}
+
+.secthreeseccolinsidediv{
+    width: 300px;
+    height: 90px;
+    border: 2px solid rgb(82, 82, 82);
+    position: relative;
+    left: 113px;
+    top: 190px;
+    border-radius: 10px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.secthreeseccolinsidediv img{
+    width: 60px;
+    height: 70px;
+    margin: 10px;
+}
+
+.secthree p{
+    color: rgb(82, 71, 238);
+}
+
+.secfour{
+    height: 50vh;
+    background-color: black;
+    border-top:8px solid rgb(48, 48, 48) ;
+    border-bottom:8px solid rgb(48, 48, 48) ;
+}
+
+.secfour h1, h4{
+    color: white;
+}
+
+
+#secfourseccol{
+    background-image: url("devices.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 280px;
+}
+
+#secfiveseccol{
+    background-image: url("kids.JPG");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+}
+
+.secfive{
+    height: 50vh;
+    background-color: black;
+    border-top:8px solid rgb(48, 48, 48) ;
+    border-bottom:8px solid rgb(48, 48, 48) ;
+}
+
+.secfive h1, h4{
+    color: white;
+}
+
+.secsix{
+    height: 100vh;
+    background-color: black;
+    border-top:8px solid rgb(48, 48, 48) ;
+    border-bottom:8px solid rgb(48, 48, 48) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secsix h1{
+    color: white;
+    font-size: 50px;
+}
+
+.secsix p{
+    color: white;
+    font-weight: 700;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.secsix input{
+    width: 450px;
+    height: 70px;
+}
+
+.secsix button{
+    width: 242px;
+    height: 70px;
+    background-color: red;
+    border-color: transparent;
+}
+
+.secsix button span{
+    color: white;
+    font-size: 30px;
+}
+
+.questionscont{
+    max-height: 90vh;
+    height: 60vh;
+}
+
+.question{
+    background: #303030;
+    color: white;
+    padding: 15px 30px;
+    transition: 0.7s;
+}
+
+.answer{
+    max-height:0 ;
+    overflow: hidden;
+}
+
+.test .answer{
+    max-height: 300px;
+}
+
+.test{
+    max-height: 300px;
+}
+
+.footer{
+    height: 40vh;
+    background-color: black;
+    border-top:8px solid rgb(48, 48, 48) ;
+    border-bottom:8px solid rgb(48, 48, 48) ;
+    color: #757575;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.buttonarrow{
+    position: relative;
+    bottom: 4px;
+    left: 5px;
+}
